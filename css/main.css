@@ -5,6 +5,12 @@ body {
    position: relative; 
 }
 
+.vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 ::selection {
    background: #873fb5;
    color: #fff;
@@ -69,6 +75,111 @@ hr.icon:after {
    border-color: #873fb5;
    margin-top: 30px;
    margin-bottom: 40px;
+}
+
+
+/*header*/
+
+#home {
+   background: url(../img/background.png) fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: #fff;
+   height: 500px;
+}
+
+.logo {
+   font-size: 72px;
+   font-weight: 100;
+   display: inline-block;
+   border-bottom: 1px solid #fff;
+   border-top: 1px solid #fff;
+   padding: 0 20px 15px 20px;
+}
+
+#home h3 {
+   font-weight: 300;
+   margin: 0;
+}
+
+#home .learn-more {
+   color: #fff;
+   font-size: 30px;
+   position: absolute;
+}
+
+.learn-more .fa {
+   position: absolute;
+}
+
+.learn-more .second-arrow {
+   top: 9px;
+}
+
+.learn-more .third-arrow {
+   top: 18px;
+}
+
+/*about*/
+
+#about {
+   background: url(../img/aboutbg.png) fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: #fff;
+   height: 430px;
+}
+
+#about h3 {
+   font-size: 24px;
+   font-weight: 300;
+   letter-spacing: 3px;
+}
+
+#about h4 {
+   font-weight: 300;
+   padding: 0 20px;
+}
+
+#about p{
+ padding: 0 20%;
+}
+
+/*services*/
+
+.service-item {
+   margin-bottom: 40px;
+}
+
+.service-item i {
+   font-size: 48px;
+   color: #c1c1c1;
+   float: left;
+    padding-right: 20px;
+    border-right: 1px solid #873fb5;
+}
+
+.service-title {
+   margin-left: 30px;
+   margin-top: -20px;
+   display: inline-block;
+}
+
+.service-title h3 {
+   color: #111;
+   font-weight: 800;
+}
+
+.service-title h4 {
+   color: #a56fc8;
+   font-weight: 300;
+   margin-top: -10px;
+}
+
+#services p {
+   color: #4d4d4d;
 }
 
 
