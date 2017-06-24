@@ -1,0 +1,74 @@
+body {
+   font-family: lato;
+   color: #111;
+   overflow-x: hidden;
+   position: relative; 
+}
+
+::selection {
+   background: #873fb5;
+   color: #fff;
+}
+
+::-moz-selection {
+   background: #873fb5;
+   color: #fff;
+}
+
+strong {
+   font-weight: 900;
+}
+
+p {
+   line-height: 24px;
+   font-weight: 300px;
+}
+
+a,
+a:focus {
+   color: #873fb5;
+}
+
+a:hover {
+   color: #41135f;
+   text-decoration: none;
+   
+}
+
+section {
+   padding: 50px 0;
+}
+
+hr {
+   width: 85px;
+}
+
+hr.icon:after {
+   content: "\f123";
+   font-family: 'FontAwesome';
+   color: #873fb5;
+   font-size: 1.5em;
+   background-color: #fff;
+   position: relative;
+   top: -0.8em;
+   padding: .30em;
+}
+
+/*section heading*/
+
+.section-heading {
+   color: #873fb5;
+}
+
+.section-heading h3{
+   font-weight: 300;
+   letter-spacing: 3px;
+}
+
+.section-heading hr{
+   border-color: #873fb5;
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+
+
