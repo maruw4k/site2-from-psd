@@ -349,3 +349,89 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#793b94', end
    background-size: cover;
    -webkit-background-size: cover;
 }
+
+
+
+/*quotes*/
+
+#quotes {
+   background: url(../img/quotesbg.png) fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: #fff;
+   height: 440px;
+   position: relative;
+}
+
+/*contact*/
+
+.form-control {
+   padding: 15px;
+   font-size: 16px;
+   height: 40px;
+   color: #c1c1c1;
+   background-color: #f5f5f5;
+   border: 1px solid #d1d1d1;
+    box-shadow: none;
+   font-weight: 300;
+}
+
+.form-control:focus {
+   box-shadow: none;
+  border: 1px solid #a43ab7;
+   background-color: #fff;
+}
+
+#contact .btn {
+   display: none;
+}
+
+#footer {
+   background: url(../img/footerbg.png) fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: #fff;
+   padding-top: 50px;
+}
+
+#footer .logo {
+   font-size: 46px;
+   padding: 0 20px 10px 20px;
+}
+
+
+#footer li {
+   list-style: none;
+   display: inline-block;
+   padding: 10px 10px 60px; 0;
+   font-size: 30px;
+   color: #fff;
+}
+
+#footer i:hover {
+   color: ##a43ab7;
+}
+
+#footer ul {
+   padding-left: 0;
+}
+
+#footer li i{
+   color: #fff;
+}
+
+.copyrights {
+   padding: 5px 0;
+   position: absolute;
+  background-color: rgba(0,0,0,0.4);
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-size: 12px;
+  
+   color: #c8c6c9;
+  
+}
+
