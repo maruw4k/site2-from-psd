@@ -1,5 +1,5 @@
 body {
-   font-family: 'Lato';
+   font-family: 'Lato', sans-serif;
    color: #111;
    overflow-x: hidden;
    position: relative; 
@@ -86,7 +86,7 @@ hr.icon:after {
    background-position: center;
    background-size: cover;
    color: #fff;
-   height: 500px;
+   height: 600px;
 }
 
 .logo {
@@ -403,6 +403,7 @@ blockquote p {
    font-weight: 300;
 }
 
+
 .form-control:focus {
    box-shadow: none;
   border: 1px solid #a43ab7;
@@ -457,3 +458,11 @@ blockquote p {
   
 }
 
+
+@media (max-width: 750px) {
+
+   .btn {
+      margin-bottom: 20px;
+   }
+
+}
