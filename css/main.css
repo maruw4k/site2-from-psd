@@ -1,5 +1,5 @@
 body {
-   font-family: lato;
+   font-family: 'Lato';
    color: #111;
    overflow-x: hidden;
    position: relative; 
@@ -355,7 +355,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#793b94', end
 /*quotes*/
 
 #quotes {
-   background: url(../img/quotesbg.png) fixed;
+   background: url(../img/quotesbg.png);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -363,6 +363,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#793b94', end
    height: 440px;
    position: relative;
 }
+
+.owl-carousel cite {
+   font-style: normal;
+   font-size: 24px;
+   font-weight: 900;
+}
+
+.owl-carousel h4 {
+   font-weight: 300;
+}
+
+.owl-carousel img {
+   margin: 30px auto;
+   width: 80px;
+   height: 80px;
+   border-radius: 5px;
+}
+
+blockquote {
+   border: none;
+}
+blockquote p {
+   color: #fff;
+
+}
+
 
 /*contact*/
 
